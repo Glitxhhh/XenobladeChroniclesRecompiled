@@ -8,9 +8,14 @@
 
 ## Project status
 
-Xenoblade Chronicles Recompiled is in early development. The first target is
+Xenoblade Chronicles Recompiled is in active development. The first target is
 Xenoblade Chronicles: Definitive Edition; support for other games is planned.
 There is no public release or supported installer yet.
+
+This repository is nearly empty on purpose for now: it holds only this README,
+the license files and the project artwork. Work is happening privately and is
+ongoing. The source code will appear here once the game is ready for the public
+to test and play. There is no release date yet.
 
 The intended launcher will build a game installation locally from files supplied
 by the user, including the base game and supported updates or downloadable
