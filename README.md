@@ -55,33 +55,27 @@ The objective remains a fully native implementation without reliance on an emula
 
 ## Development Screenshots & Comparisons
 
-These screenshots show actual output from internal development builds, including native gameplay rendering in Colony 9, comparison work against Suyu as a reference, and iterations of the title-screen renderer.
+The following screenshots show actual output from internal development builds, including side-by-side native gameplay comparisons against Suyu and separate title-screen rendering progress.
 
 ### Native Gameplay Progress
 
-The native implementation has loaded an existing save and reached Colony 9, rendering the environment, character models, and HUD. Comparisons with Suyu help identify discrepancies and guide improvements to the native Vulkan renderer.
+The native implementation has loaded an existing save and reached Colony 9, rendering the environment, character models, and HUD. These two side-by-side comparisons help identify differences between the Suyu reference and the native Vulkan renderer.
 
-![Xenoblade Chronicles Recompiled gameplay progress screenshot](https://dl.glitxh.tech/r/9dJXobVa.png)
+![Colony 9 side-by-side rendering comparison](https://dl.glitxh.tech/r/vDWcojnf.png)
 
-![Xenoblade Chronicles Recompiled gameplay rendering comparison](https://dl.glitxh.tech/r/vDWcojnf.png)
+![Colony 9 side-by-side development comparison](https://dl.glitxh.tech/r/kMVmhvOb.png)
 
 **Development update:** An earlier issue preventing character models from appearing in the native renderer has been fixed. Current graphics work is focused on correcting foliage rendering, including grass and vegetation, and improving visual accuracy.
 
 ### Title Screen Rendering Progress
 
-The following screenshots document title-screen rendering iterations, including fixes for visual artifacts and a temporary color-grading regression encountered during development. They are shown together at a smaller size to distinguish them from the in-game comparison images above.
+These three title-screen screenshots document rendering iterations, including fixes for visual artifacts and a temporary color-grading regression. They are displayed together at a smaller size, separately from the Colony 9 comparisons.
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <img src="https://dl.glitxh.tech/r/38r7rV18.png" alt="Title screen rendering progress, screenshot 1" width="260">
-    </td>
-    <td align="center" width="33%">
-      <img src="https://dl.glitxh.tech/r/kMVmhvOb.png" alt="Title screen rendering progress, screenshot 2" width="260">
-    </td>
-    <td align="center" width="33%">
-      <img src="https://dl.glitxh.tech/r/TfBZYg0s.png" alt="Title screen rendering progress, screenshot 3" width="260">
-    </td>
+    <td align="center" width="33%"><img src="https://dl.glitxh.tech/r/38r7rV18.png" alt="Title screen with Xenoblade Chronicles Definitive Edition logo" width="260"></td>
+    <td align="center" width="33%"><img src="https://dl.glitxh.tech/r/9dJXobVa.png" alt="Title screen rendering iteration" width="260"></td>
+    <td align="center" width="33%"><img src="https://dl.glitxh.tech/r/TfBZYg0s.png" alt="Title screen rendering iteration with the Monado" width="260"></td>
   </tr>
 </table>
 
