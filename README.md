@@ -69,13 +69,21 @@ The native implementation has loaded an existing save and reached Colony 9, rend
 
 ### Title Screen Rendering Progress
 
-The following screenshots document title-screen rendering iterations, including fixes for visual artifacts and a temporary color-grading regression encountered during development.
+The following screenshots document title-screen rendering iterations, including fixes for visual artifacts and a temporary color-grading regression encountered during development. They are shown together at a smaller size to distinguish them from the in-game comparison images above.
 
-![Xenoblade Chronicles Recompiled title-screen development screenshot 1](https://dl.glitxh.tech/r/38r7rV18.png)
-
-![Xenoblade Chronicles Recompiled title-screen development screenshot 2](https://dl.glitxh.tech/r/kMVmhvOb.png)
-
-![Xenoblade Chronicles Recompiled title-screen development screenshot 3](https://dl.glitxh.tech/r/TfBZYg0s.png)
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://dl.glitxh.tech/r/38r7rV18.png" alt="Title screen rendering progress, screenshot 1" width="260">
+    </td>
+    <td align="center" width="33%">
+      <img src="https://dl.glitxh.tech/r/kMVmhvOb.png" alt="Title screen rendering progress, screenshot 2" width="260">
+    </td>
+    <td align="center" width="33%">
+      <img src="https://dl.glitxh.tech/r/TfBZYg0s.png" alt="Title screen rendering progress, screenshot 3" width="260">
+    </td>
+  </tr>
+</table>
 
 ### Work in Progress
 
