@@ -21,6 +21,13 @@ The intended launcher will build a game installation locally from files supplied
 by the user, including the base game and supported updates or downloadable
 content. The project does not distribute game files, firmware, or keys.
 
+## How this project is developed
+
+In the interest of transparency: large language models (LLM coding assistants such as Claude and Codex) are
+involved in this project's development and help write and analyse code. The lead developer is a working
+programmer who sets the goals and architecture, directs and reviews the assistants' work, tests the results, and
+makes the final decisions. The assistants are tools under that direction, not a substitute for it.
+
 <p align="center">
   <img src="assets/icon.png" alt="Xenoblade Chronicles Recompiled icon" width="112">
 </p>
