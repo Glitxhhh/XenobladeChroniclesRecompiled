@@ -42,16 +42,46 @@ While these milestones represent substantial progress, additional work is requir
 Current priorities include:
 
 - Correcting remaining graphics and shader issues.
-- Fixing missing character models and incomplete foliage rendering.
+- Correcting foliage rendering, including grass and vegetation, following the successful fix for missing character models.
 - Improving runtime performance and frame pacing.
 - Completing native implementations of remaining system services.
 - Refining input, audio, memory management, and save compatibility.
 - Testing additional gameplay scenarios and areas.
 - Continuing the transition away from the modified Suyu compatibility runtime.
 
-The native implementation is already capable of executing and rendering portions of the game, but it is **not yet ready for general gameplay or public distribution**.
+The native implementation is already capable of executing and rendering portions of the game, including character models after a recent rendering fix, but it is **not yet ready for general gameplay or public distribution**.
 
 The objective remains a fully native implementation without reliance on an emulator during gameplay.
+
+## Development Screenshots & Comparisons
+
+These screenshots show actual output from internal development builds, including native gameplay rendering in Colony 9, comparison work against Suyu as a reference, and iterations of the title-screen renderer.
+
+### Native Gameplay Progress
+
+The native implementation has loaded an existing save and reached Colony 9, rendering the environment, character models, and HUD. Comparisons with Suyu help identify discrepancies and guide improvements to the native Vulkan renderer.
+
+![Xenoblade Chronicles Recompiled gameplay progress screenshot](https://dl.glitxh.tech/r/9dJXobVa.png)
+
+![Xenoblade Chronicles Recompiled gameplay rendering comparison](https://dl.glitxh.tech/r/vDWcojnf.png)
+
+**Development update:** An earlier issue preventing character models from appearing in the native renderer has been fixed. Current graphics work is focused on correcting foliage rendering, including grass and vegetation, and improving visual accuracy.
+
+### Title Screen Rendering Progress
+
+The following screenshots document title-screen rendering iterations, including fixes for visual artifacts and a temporary color-grading regression encountered during development.
+
+![Xenoblade Chronicles Recompiled title-screen development screenshot 1](https://dl.glitxh.tech/r/38r7rV18.png)
+
+![Xenoblade Chronicles Recompiled title-screen development screenshot 2](https://dl.glitxh.tech/r/kMVmhvOb.png)
+
+![Xenoblade Chronicles Recompiled title-screen development screenshot 3](https://dl.glitxh.tech/r/TfBZYg0s.png)
+
+### Work in Progress
+
+**All screenshots are from internal development builds and do not represent the final appearance or performance of the project.** Rendering accuracy, foliage, performance, and remaining native system integration are active areas of development.
+
+For further updates or to help with development, [join the Discord community](https://discord.gg/kSXPe7VFhF).
 
 ## Development Roadmap
 
