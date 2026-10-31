@@ -61,9 +61,9 @@ The following screenshots show actual output from internal development builds, i
 
 The native implementation has loaded an existing save and reached Colony 9, rendering the environment, character models, and HUD. These two side-by-side comparisons help identify differences between the Suyu reference and the native Vulkan renderer.
 
-![Colony 9 side-by-side rendering comparison](https://dl.glitxh.tech/r/vDWcojnf.png)
+![Earlier Colony 9 comparison showing missing character models](https://dl.glitxh.tech/r/kMVmhvOb.png)
 
-![Colony 9 side-by-side development comparison](https://dl.glitxh.tech/r/kMVmhvOb.png)
+![Later Colony 9 comparison with character models restored](https://dl.glitxh.tech/r/vDWcojnf.png)
 
 **Development update:** An earlier issue preventing character models from appearing in the native renderer has been fixed. Current graphics work is focused on correcting foliage rendering, including grass and vegetation, and improving visual accuracy.
 
@@ -73,9 +73,9 @@ These three title-screen screenshots document rendering iterations, including fi
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="https://dl.glitxh.tech/r/38r7rV18.png" alt="Title screen with Xenoblade Chronicles Definitive Edition logo" width="260"></td>
     <td align="center" width="33%"><img src="https://dl.glitxh.tech/r/9dJXobVa.png" alt="Title screen rendering iteration" width="260"></td>
     <td align="center" width="33%"><img src="https://dl.glitxh.tech/r/TfBZYg0s.png" alt="Title screen rendering iteration with the Monado" width="260"></td>
+    <td align="center" width="33%"><img src="https://dl.glitxh.tech/r/38r7rV18.png" alt="Title screen with Xenoblade Chronicles Definitive Edition logo" width="260"></td>
   </tr>
 </table>
 
