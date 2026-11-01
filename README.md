@@ -3,73 +3,79 @@
 </p>
 
 <p align="center">
-  An actively developed native PC recompilation project bringing the Xenoblade Chronicles series to Windows.
+  A native PC recompilation project bringing the Xenoblade Chronicles series to Windows.
+</p>
+
+<p align="center">
+  <img alt="Status: in development" src="https://img.shields.io/badge/status-in%20development-orange?style=flat-square">
+  <img alt="Platform: Windows" src="https://img.shields.io/badge/platform-Windows-0078d4?style=flat-square">
+  <img alt="Release: none yet" src="https://img.shields.io/badge/release-none%20yet-lightgrey?style=flat-square">
+  <img alt="License: GPL-3.0-or-later" src="https://img.shields.io/badge/license-GPL--3.0--or--later-blue?style=flat-square">
+  <a href="https://discord.gg/kSXPe7VFhF"><img alt="Discord" src="https://img.shields.io/badge/Discord-join-5865f2?style=flat-square&logo=discord&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <a href="#project-status">Status</a> ·
+  <a href="#development-progress">Progress</a> ·
+  <a href="#development-screenshots--comparisons">Screenshots</a> ·
+  <a href="#development-roadmap">Roadmap</a> ·
+  <a href="#community--contributing">Contribute</a> ·
+  <a href="#support-development">Support</a>
 </p>
 
 ## Project Status
 
-**Active Development | Windows First | No Public Release Yet**
+**Active development · Windows first · No public release yet**
 
-**Xenoblade Chronicles Recompiled** is a native PC recompilation project focused on bringing the Xenoblade Chronicles games to Windows, beginning with **Xenoblade Chronicles: Definitive Edition**.
+**Xenoblade Chronicles Recompiled** brings the Xenoblade Chronicles games to Windows as native programs, beginning with **Xenoblade Chronicles: Definitive Edition**.
 
-The project uses static ARM64 recompilation to transform the game's original executable code into native PC code, alongside the development of a dedicated runtime, graphics implementation, and supporting tools.
+It uses static ARM64 recompilation to turn the game's original executable code into native PC code, together with a dedicated runtime, a Vulkan graphics implementation and supporting tools. The goal is a fully native Windows experience that needs no emulator or compatibility layer during gameplay.
 
-The ultimate goal is to deliver a fully native Windows experience without requiring an emulator or compatibility layer during gameplay.
-
-Development is actively ongoing, with significant progress already made on the recompilation pipeline, native runtime, Vulkan graphics implementation, and game compatibility.
-
-**There is currently no public build, installer, or announced release date.** Development is taking place privately, with plans to publish the source code once the initial game is ready for public testing and play.
+Development is ongoing, with real progress on the recompilation pipeline, the native runtime, Vulkan rendering and game compatibility. The game is not yet ready for general play, and **there is currently no public build, installer or announced release date.** Development happens in a private repository; the source will be published here once the first game is ready for public testing.
 
 ## Development Progress
 
-Work on Xenoblade Chronicles: Definitive Edition has already reached several important technical milestones.
+Xenoblade Chronicles: Definitive Edition has reached the following milestones.
 
 ### What's Been Accomplished
 
-- **Static ARM64 Recompilation:** A recompilation pipeline for converting the game's ARM64 executable modules into native code.
-- **Native Windows Runtime:** Development of a dedicated runtime to handle the game's execution, memory management, and system functionality.
-- **Vulkan Graphics:** A native graphics implementation capable of processing game graphics commands, shaders, textures, and rendering operations.
-- **Native System Integration:** Implementation of game SDK hooks and replacement services, gradually eliminating dependencies on the transitional Suyu runtime.
-- **Title Screen Rendering:** The native implementation can successfully render the game's title screen.
-- **Menu Navigation:** Scripted controller input can navigate the game's menus.
-- **Save Loading:** The game can detect save files and load an existing save.
-- **In-Game Rendering:** The native implementation has successfully reached Colony 9 and rendered an in-game scene, including terrain and HUD elements.
+- **Static ARM64 recompilation:** A pipeline that converts the game's ARM64 executable modules into native code.
+- **Native Windows runtime:** A dedicated runtime that handles the game's execution, memory management and system services.
+- **Vulkan graphics:** A native graphics implementation that processes the game's graphics commands, shaders and textures.
+- **Native system integration:** Replacements for game SDK hooks and system services, steadily reducing reliance on the transitional Suyu runtime.
+- **Title screen:** The native build renders the title screen.
+- **Menu navigation:** Scripted controller input navigates the menus.
+- **Save loading:** The game detects and loads an existing save.
+- **In-game rendering:** The native build reaches Colony 9 and renders the scene, including terrain, character models and HUD.
 
 ### Current Development Focus
 
-While these milestones represent substantial progress, additional work is required before the game is ready for public testing.
+Much work remains before the game is ready for public testing. Current priorities:
 
-Current priorities include:
-
-- Correcting remaining graphics and shader issues.
-- Correcting foliage rendering, including grass and vegetation, following the successful fix for missing character models.
-- Improving runtime performance and frame pacing.
+- Fixing the remaining graphics and shader issues, starting with foliage (grass and vegetation) now that missing character models are fixed.
+- Improving runtime performance and frame pacing. The native build currently runs well below full speed.
 - Completing native implementations of remaining system services.
 - Refining input, audio, memory management, and save compatibility.
 - Testing additional gameplay scenarios and areas.
-- Continuing the transition away from the modified Suyu compatibility runtime.
-
-The native implementation is already capable of executing and rendering portions of the game, including character models after a recent rendering fix, but it is **not yet ready for general gameplay or public distribution**.
-
-The objective remains a fully native implementation without reliance on an emulator during gameplay.
+- Continuing the move away from the modified Suyu compatibility runtime.
 
 ## Development Screenshots & Comparisons
 
-The following screenshots show actual output from internal development builds, including side-by-side native gameplay comparisons against Suyu and separate title-screen rendering progress.
+These screenshots are real output from internal development builds: side-by-side comparisons of the native renderer against Suyu, and title-screen rendering progress.
 
 ### Native Gameplay Progress
 
-The native implementation has loaded an existing save and reached Colony 9, rendering the environment, character models, and HUD. These two side-by-side comparisons help identify differences between the Suyu reference and the native Vulkan renderer.
+The native build loaded an existing save and reached Colony 9. These comparisons show the Suyu reference and the native Vulkan renderer side by side, before and after the character-model fix.
 
 ![Earlier Colony 9 comparison showing missing character models](https://dl.glitxh.tech/r/kMVmhvOb.png)
 
 ![Later Colony 9 comparison with character models restored](https://dl.glitxh.tech/r/vDWcojnf.png)
 
-**Development update:** An earlier issue preventing character models from appearing in the native renderer has been fixed. Current graphics work is focused on correcting foliage rendering, including grass and vegetation, and improving visual accuracy.
+**Update:** The issue that kept character models from appearing in the native renderer is fixed. Graphics work now focuses on foliage (grass and vegetation) and overall visual accuracy.
 
 ### Title Screen Rendering Progress
 
-These three title-screen screenshots document rendering iterations, including fixes for visual artifacts and a temporary color-grading regression. They are displayed together at a smaller size, separately from the Colony 9 comparisons.
+Three iterations of the title screen, including fixes for visual artifacts and a temporary color-grading regression.
 
 <table>
   <tr>
@@ -79,11 +85,7 @@ These three title-screen screenshots document rendering iterations, including fi
   </tr>
 </table>
 
-### Work in Progress
-
-**All screenshots are from internal development builds and do not represent the final appearance or performance of the project.** Rendering accuracy, foliage, performance, and remaining native system integration are active areas of development.
-
-For further updates or to help with development, [join the Discord community](https://discord.gg/kSXPe7VFhF).
+> **Note:** All screenshots come from internal development builds and do not represent the final appearance or performance of the project.
 
 ## Development Roadmap
 
@@ -168,57 +170,35 @@ Linux development will be explored as the project progresses. There is currently
 
 ## Community & Contributing
 
-Join the **Xenoblade Chronicles Recompiled Discord server** to follow development progress, discuss the project, receive updates, and connect with others interested in native recompilation and reverse engineering.
+Join the **Xenoblade Chronicles Recompiled Discord server** to follow progress, discuss the project and meet others interested in native recompilation and reverse engineering.
 
 **[Join the Official Discord Server](https://discord.gg/kSXPe7VFhF)**
 
 ### Interested in Helping With Development?
 
-**I'm currently the sole developer working on Xenoblade Chronicles Recompiled**, and bringing a project of this scale to completion involves a substantial amount of reverse engineering, programming, debugging, and testing.
+**I am currently the sole developer on this project**, and a project of this size involves a great deal of reverse engineering, programming, debugging and testing. If you are an experienced developer and want to help, I would be glad to hear from you.
 
-If you're an experienced developer interested in contributing, **I'd be happy to hear from you!**
+Help would be especially valuable in these areas:
 
-Additional developers could help accelerate progress, tackle outstanding technical challenges, and bring the project closer to its goals.
+- **C/C++:** native runtime, systems programming and performance work.
+- **Reverse engineering:** ARM64 analysis, executable formats, game internals and Nintendo Switch system interfaces.
+- **Graphics:** Vulkan, shader translation and rendering compatibility.
+- **Recompilation and tooling:** static recompilation, binary analysis, build systems and development utilities.
+- **Testing and debugging:** finding runtime issues, investigating crashes and improving compatibility.
 
-Areas where development assistance would be particularly valuable include:
-
-- **C/C++ Development:** Native runtime implementation, systems programming, and performance optimization.
-- **Reverse Engineering:** ARM64 analysis, executable formats, game internals, and Nintendo Switch system interfaces.
-- **Graphics Programming:** Vulkan, shader translation, graphics APIs, and rendering compatibility.
-- **Recompilation & Tooling:** Static recompilation, binary analysis, build systems, and supporting development utilities.
-- **Testing & Debugging:** Identifying runtime issues, investigating crashes, and improving compatibility.
-
-**If you'd like to help, join the Discord server and contact me directly at @Glitxhhh.**
-
-We can discuss your experience, the areas you'd like to contribute to, and potentially arrange an invitation to the **private source code repository**, where active development is currently taking place.
-
-The project is being developed privately for now, but that doesn't mean development has to remain a one-person undertaking. Contributions from capable and motivated developers are welcome!
+**To get involved, join the Discord server and message me directly ([@Glitxhhh](https://github.com/Glitxhhh)).** We can talk about your experience and the areas you would like to work on, and I can invite suitable contributors to the **private source repository**, where active development takes place. The project is private for now, but it does not have to stay a one-person effort.
 
 ## What to Expect
 
-Development is currently taking place in a private repository while the native implementation continues to progress.
+This public repository is the project's official home for information and, later, source code. Until then, expect updates on technical milestones, compatibility improvements and eventual public testing. The source will be published when the first game is ready for the public to test and play.
 
-This public repository serves as the project's official information and future source code location.
+The planned launcher will create a local installation from game files you provide.
 
-As development progresses, you can expect updates on technical milestones, compatibility improvements, and eventual public testing.
-
-The source code will be published when the first game is ready for the public to test and play.
-
-The intended launcher will create a local installation from game files provided by the user.
-
-**This project does not distribute copyrighted game files, firmware, or encryption keys. Users will be responsible for supplying their own required game files.**
+**This project does not distribute copyrighted game files, firmware or encryption keys. Users must supply their own game files.**
 
 ## Support Development
 
-Xenoblade Chronicles Recompiled is a major development project that requires a significant amount of my time, including reverse engineering, recompilation, native runtime development, debugging, and testing.
-
-I dedicate a considerable amount of my free time to working on this project alongside my other responsibilities.
-
-If you enjoy following its progress and would like to support development, **donations are greatly appreciated**.
-
-Your support helps motivate me to continue development and encourages me to dedicate more of my free time to improving the project and working toward its completion.
-
-Every contribution is appreciated, regardless of its size.
+This project takes a great deal of my time, including reverse engineering, recompilation, runtime development, debugging and testing, and I do it in my free time alongside my other responsibilities. If you enjoy following its progress, donations are appreciated and help me dedicate more time to it. Every contribution is welcome, whatever its size.
 
 ### Donation Methods
 
