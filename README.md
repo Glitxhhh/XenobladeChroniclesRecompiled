@@ -47,13 +47,15 @@ Xenoblade Chronicles: Definitive Edition has reached the following milestones.
 - **Menu navigation:** Scripted controller input navigates the menus.
 - **Save loading:** The game detects and loads an existing save.
 - **In-game rendering:** The native build reaches Colony 9 and renders the scene, including terrain, character models and HUD.
+- **Faster runtime:** Guest threads now run in parallel, the graphics command-recording path is roughly twice as fast, and an opt-in asynchronous submit path overlaps game code with graphics recording. In a stationary Colony 9 scene the native build now runs at roughly 20-25 frames per second, up from under 10 earlier in development.
+- **GPU stream-out:** Transform feedback (the GPU stage that generates data such as foliage instances) now runs by default, which fixed the wrong world colours seen without it.
 
 ### Current Development Focus
 
 Much work remains before the game is ready for public testing. Current priorities:
 
-- Fixing the remaining graphics and shader issues, starting with foliage (grass and vegetation) now that missing character models are fixed.
-- Improving runtime performance and frame pacing. The native build currently runs well below full speed.
+- Fixing the remaining graphics and shader issues. Foliage (grass and vegetation) still does not match the Suyu reference, and we are tracking brief black frames and a distant texture that turns red.
+- Reaching a stable 30 frames per second (the game's original target), then checking combat, cutscenes and fast movement, which have not been measured yet. Frame pacing still needs work.
 - Completing native implementations of remaining system services.
 - Refining input, audio, memory management, and save compatibility.
 - Testing additional gameplay scenarios and areas.
