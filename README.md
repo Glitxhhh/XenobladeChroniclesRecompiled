@@ -40,7 +40,7 @@ Development is ongoing, with real progress on the recompilation pipeline, the na
 
 <p align="center"><img src="assets/progress/bars.svg" alt="Progress by area" width="620"></p>
 
-<sub>Estimates by area, last updated 2026-11-06. Hand-reviewed estimates per part of the project; bars marked measured come from the code.</sub>
+<sub>Estimates by area, last updated 2026-11-07. Hand-reviewed estimates per part of the project; bars marked measured come from the code.</sub>
 <!-- progress:end -->
 
 Xenoblade Chronicles: Definitive Edition has reached the following milestones.
@@ -62,7 +62,7 @@ Xenoblade Chronicles: Definitive Edition has reached the following milestones.
 
 Much work remains before the game is ready for public testing. Current priorities:
 
-- Fixing the remaining graphics and shader issues. Foliage (grass and vegetation) still does not match the Suyu reference, and we are tracking brief black frames and a distant texture that turns red.
+- Fixing the remaining graphics and shader issues. Foliage (grass and vegetation) still does not match the Suyu reference, and I am tracking brief black frames and a distant texture that turns red.
 - Reaching a stable 30 frames per second (the game's original target), then checking combat, cutscenes and fast movement, which have not been measured yet. Frame pacing still needs work.
 - Completing native implementations of remaining system services.
 - Refining input, audio, memory management, and save compatibility.
