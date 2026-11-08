@@ -20,7 +20,7 @@
   <a href="#development-screenshots--comparisons">Screenshots</a> ·
   <a href="#development-roadmap">Roadmap</a> ·
   <a href="#community--contributing">Contribute</a> ·
-  <a href="#support-development">Support</a>
+  <a href="#support-me">Support</a>
 </p>
 
 ## Project Status
@@ -95,6 +95,8 @@ Three iterations of the title screen, including fixes for visual artifacts and a
   </tr>
 </table>
 
+> **These screenshots are outdated.** They were taken from early builds, when rendering was still broken (missing character models, incomplete title screens), and they no longer reflect the current state of development. The project has progressed well beyond what is shown here; newer captures will replace them.
+>
 > **Note:** All screenshots come from internal development builds and do not represent the final appearance or performance of the project.
 
 ## Development Roadmap
@@ -206,9 +208,9 @@ The planned launcher will create a local installation from game files you provid
 
 **This project does not distribute copyrighted game files, firmware or encryption keys. Users must supply their own game files.**
 
-## Support Development
+## Support Me
 
-This project takes a great deal of my time, including reverse engineering, recompilation, runtime development, debugging and testing, and I do it in my free time alongside my other responsibilities. If you enjoy following its progress, donations are appreciated and help me dedicate more time to it. Every contribution is welcome, whatever its size.
+I develop this project myself, in my free time alongside my other responsibilities. If you enjoy following my work and want to support me as an individual developer, you can send a voluntary personal donation. Every contribution is appreciated, whatever its size.
 
 ### Donation Methods
 
@@ -233,7 +235,7 @@ The Ethereum address is also used on compatible networks including Base, Linea, 
 
 </details>
 
-Donations are entirely optional and do not guarantee early access, specific features, or a release date.
+Donations are voluntary personal gifts to me as an individual developer. They are not payment for the project, a product or a service, and they are not a purchase of, or investment in, the project or any software. They do not give any right to early access, specific features, support, or a release date, and they do not make the project a commercial offering.
 
 ## How This Project Is Developed
 
