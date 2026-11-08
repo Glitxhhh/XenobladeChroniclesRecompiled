@@ -62,7 +62,7 @@ Xenoblade Chronicles: Definitive Edition has reached the following milestones.
 
 Much work remains before the game is ready for public testing. Current priorities:
 
-- Fixing the remaining graphics and shader issues. Foliage (grass and vegetation) still does not match the Suyu reference, and I am tracking brief black frames and a distant texture that turns red.
+- Fixing the remaining graphics and shader issues. I am tracking brief black frames.
 - Reaching a stable 30 frames per second (the game's original target), then checking combat, cutscenes and fast movement, which have not been measured yet. Frame pacing still needs work.
 - Completing native implementations of remaining system services.
 - Refining input, audio, memory management, and save compatibility.
@@ -81,7 +81,7 @@ The native build loaded an existing save and reached Colony 9. These comparisons
 
 ![Later Colony 9 comparison with character models restored](https://dl.glitxh.tech/r/vDWcojnf.png)
 
-**Update:** The issue that kept character models from appearing in the native renderer is fixed. Graphics work now focuses on foliage (grass and vegetation) and overall visual accuracy.
+**Update:** The issue that kept character models from appearing in the native renderer is fixed. Graphics work now focuses on overall visual accuracy.
 
 ### Title Screen Rendering Progress
 
