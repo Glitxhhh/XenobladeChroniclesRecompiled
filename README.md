@@ -40,7 +40,7 @@ Development is ongoing, with real progress on the recompilation pipeline, the na
 
 <p align="center"><img src="assets/progress/bars.svg?v=53da4fbc" alt="Progress by area" width="620"></p>
 
-<sub>Estimates by area, last updated 2026-11-10. Hand-reviewed estimates per part of the project; bars marked measured come from the code.</sub>
+<sub>Estimates by area, last updated 2026-11-11. Hand-reviewed estimates per part of the project; bars marked measured come from the code.</sub>
 <!-- progress:end -->
 
 Xenoblade Chronicles: Definitive Edition has reached the following milestones.
