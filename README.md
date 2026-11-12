@@ -36,9 +36,9 @@ Development is ongoing, with real progress on the recompilation pipeline, the na
 ## Development Progress
 
 <!-- progress:start -->
-<p align="center"><img src="assets/progress/overall.svg?v=caa8ae45" alt="Overall progress estimate" width="180"></p>
+<p align="center"><img src="assets/progress/overall.svg?v=32521a0a" alt="Overall progress estimate" width="180"></p>
 
-<p align="center"><img src="assets/progress/bars.svg?v=caa8ae45" alt="Progress by area" width="620"></p>
+<p align="center"><img src="assets/progress/bars.svg?v=32521a0a" alt="Progress by area" width="620"></p>
 
 <sub>Estimates by area, last updated 2026-11-12. Hand-reviewed estimates per part of the project; bars marked measured come from the code.</sub>
 <!-- progress:end -->
