@@ -36,15 +36,15 @@ Development is ongoing, with real progress on the recompilation pipeline, the na
 ## Development Progress
 
 <!-- progress:start -->
-<p align="center"><img src="assets/progress/overall.svg?v=04b92e74" alt="Overall progress estimate" width="180"></p>
+<p align="center"><img src="assets/progress/overall.svg?v=d2fd9aac" alt="Overall progress estimate" width="180"></p>
 
-<p align="center"><img src="assets/progress/bars.svg?v=04b92e74" alt="Progress by area" width="620"></p>
+<p align="center"><img src="assets/progress/bars.svg?v=d2fd9aac" alt="Progress by area" width="620"></p>
 
 
-<p align="center"><img src="assets/progress/wheel-tooling.svg?v=04b92e74" alt="Tooling and verification" width="150"> <img src="assets/progress/bars-tooling.svg?v=04b92e74" alt="Tooling and verification by area" width="520"></p>
-<p align="center"><img src="assets/progress/wheel-product.svg?v=04b92e74" alt="Launcher and installer" width="150"> <img src="assets/progress/bars-product.svg?v=04b92e74" alt="Launcher and installer by area" width="520"></p>
-<p align="center"><img src="assets/progress/wheel-extras.svg?v=04b92e74" alt="Optional extras (not needed to finish the game)" width="150"> <img src="assets/progress/bars-extras.svg?v=04b92e74" alt="Optional extras (not needed to finish the game) by area" width="520"></p>
-<p align="center"><img src="assets/progress/wheel-platforms.svg?v=04b92e74" alt="Other games, versions and platforms" width="150"> <img src="assets/progress/bars-platforms.svg?v=04b92e74" alt="Other games, versions and platforms by area" width="520"></p>
+<p align="center"><img src="assets/progress/wheel-tooling.svg?v=d2fd9aac" alt="Tooling and verification" width="150"> <img src="assets/progress/bars-tooling.svg?v=d2fd9aac" alt="Tooling and verification by area" width="520"></p>
+<p align="center"><img src="assets/progress/wheel-product.svg?v=d2fd9aac" alt="Launcher and installer" width="150"> <img src="assets/progress/bars-product.svg?v=d2fd9aac" alt="Launcher and installer by area" width="520"></p>
+<p align="center"><img src="assets/progress/wheel-extras.svg?v=d2fd9aac" alt="Optional extras (not needed to finish the game)" width="150"> <img src="assets/progress/bars-extras.svg?v=d2fd9aac" alt="Optional extras (not needed to finish the game) by area" width="520"></p>
+<p align="center"><img src="assets/progress/wheel-platforms.svg?v=d2fd9aac" alt="Other games, versions and platforms" width="150"> <img src="assets/progress/bars-platforms.svg?v=d2fd9aac" alt="Other games, versions and platforms by area" width="520"></p>
 
 <sub>Estimates by area, last updated 2026-11-12. Hand-reviewed estimates per part of the project; bars marked measured come from the code.</sub>
 <!-- progress:end -->
