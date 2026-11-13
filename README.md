@@ -46,7 +46,7 @@ Development is ongoing, with real progress on the recompilation pipeline, the na
 <p align="center"><img src="assets/progress/wheel-extras.svg?v=42574d10" alt="Optional extras (not needed to finish the game)" width="150"> <img src="assets/progress/bars-extras.svg?v=42574d10" alt="Optional extras (not needed to finish the game) by area" width="520"></p>
 <p align="center"><img src="assets/progress/wheel-platforms.svg?v=42574d10" alt="Other games, versions and platforms" width="150"> <img src="assets/progress/bars-platforms.svg?v=42574d10" alt="Other games, versions and platforms by area" width="520"></p>
 
-<sub>Estimates by area, last updated 2026-11-12. Hand-reviewed estimates per part of the project; bars marked measured come from the code.</sub>
+<sub>Estimates by area, last updated 2026-11-13. Hand-reviewed estimates per part of the project; bars marked measured come from the code.</sub>
 <!-- progress:end -->
 
 Xenoblade Chronicles: Definitive Edition has reached the following milestones.
